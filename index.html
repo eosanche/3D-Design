@@ -50,14 +50,30 @@
       }
       
          .image-gallery2 {
-        column-count: 2;
+        column-count: 1;
         width: 100%;
         margin: auto;
         position: absolute;
-        top: 2000px;
+        top: 1900px;
       }
 
       .image-containers2 {
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 10px;
+        overflow: hidden;
+        position: relative;
+      }
+      
+               .image-gallery3 {
+        column-count: 1;
+        width: 100%;
+        margin: auto;
+        position: absolute;
+        top: 3300px;
+      }
+
+      .image-containers3 {
         display: inline-block;
         width: 100%;
         margin-bottom: 10px;
@@ -82,7 +98,7 @@
         font-size: 15px;
         font-weight: 300;
         color: #FFFFFF;
-        top: 2750px;
+        top: 5550px;
       }
 
       .contact-info-bar li {
@@ -113,7 +129,7 @@
         font-size: 10px;
         font-weight: 300;
         color: #FFFFFF;
-        top: 2820px;
+        top: 5620px;
       }
 
       .info-bar-copyright li {
@@ -252,40 +268,7 @@
         padding: 5px;
       }
 
-      /* Underline text animation */
-
-      .decor-underlineheading {
-        position: relative;
-        text-align: center;
-      }
-
-
-      .decor-underlineheading::after {
-        content: "";
-        display: block;
-        width: 0%;
-        height: 3px;
-        background-color: #FFFFFF;
-        position: absolute;
-        top: 90px;
-        overflow: hidden;
-        animation: lineani 3s forwards;
-      }
-
-      @keyframes lineani {
-        0% {
-          width: 0%;
-        }
-
-        55% {
-          width: 0%;
-        }
-
-        100% {
-          width: 50%;
-        }
-      }
-
+      
       /* headers and paragraphs containers */
 .info-box {
     width: 40%; 
@@ -309,12 +292,22 @@
       }
       
             .info-box.date2 {
-    top: 1900px;
+    top: 1740px;
     left: 53px;
 }
       
       .info-box.description2 {
-    top: 1760px;
+    top: 1600px;
+    left: 53px;
+      }
+      
+                  .info-box.date3 {
+    top: 3100px;
+    left: 53px;
+}
+      
+      .info-box.description3 {
+    top: 3000px;
     left: 53px;
       }
 
@@ -423,9 +416,15 @@
     </div>
     
        <div class="image-gallery2">
-    
       <div class="image-containers2">
-          <img src="Portfolio#1.png" alt="A 3D render of several mountains on a high altitude with foliage all over the scene" class="image-size1">
+          <img src="Distance.png" alt="A 3D render of several mountains on a high altitude with foliage all over the scene" class="image-size1">
+      </div>
+    </div>
+    
+           <div class="image-gallery3">
+    
+      <div class="image-containers3">
+          <img src="Connected-compressed.jpg" alt="A 3D render of several mountains on a high altitude with foliage all over the scene" class="image-size1">
       </div>
     </div>
     
@@ -447,6 +446,16 @@
 <div class="info-box date2">
     <h1 class="info-header">Date.</h1>
     <p class="info-text">Dec. 2023.</p>
+</div>
+    
+            <div class="info-box description3">
+    <h1 class="info-header">Title - <u>Connected</u></h1>
+    <p class="info-text">  This representation of falling but bright memories displayed though this 3D render.</p>
+</div>
+    
+<div class="info-box date3">
+    <h1 class="info-header">Date.</h1>
+    <p class="info-text">Jan. 2024.</p>
 </div>
 
 
